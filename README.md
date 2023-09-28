@@ -9,7 +9,6 @@
 6. [Connecting to the Frontend](#connecting-to-the-frontend)
 7. [Usage](#usage)
 8. [Starting the Server](#starting-the-server)
-9. [License](#license)
 
 ## Introduction
 The Weather App backend serves as an intermediary between the frontend and OpenWeather API, providing weather data to the app. This README explains how to set up, configure, and connect the backend to the frontend.
