@@ -41,9 +41,9 @@ Follow these steps to set up the Weather App backend:
    ```
 
 ## Configuration
-1. Create a `.env` file with your OpenWeather API key:
+1. in the  a `server.js` file with your OpenWeather API key:
    ```
-   OPENWEATHER_API_KEY=Your_Api_Key_Here
+   api_key=Your_Api_Key_Here
    ```
 
    This API key is essential for the backend to securely access OpenWeather data.
@@ -59,8 +59,6 @@ To connect the backend to the frontend, follow these steps:
 2. In your frontend project, make HTTP requests to the appropriate endpoints of this backend.
 
 3. Configure the frontend to use the backend's base URL for API requests.
-
-That's it! Your frontend and backend are now connected, and the frontend can fetch weather data from the backend using the API endpoints provided by the backend.
 
 ## Usage
 This backend automatically fetches and serves weather data to the frontend. There are no specific actions required for regular usage.
